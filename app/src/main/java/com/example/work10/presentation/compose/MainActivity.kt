@@ -73,9 +73,6 @@ fun CatScreen(catViewModel: CatViewModel) {
 
     // UI
     Scaffold(
-        topBar = {
-            TopAppBar(title = { Text(text = "Котики") })
-        },
         content = { paddingValues ->
             Column(
                 modifier = Modifier
@@ -102,7 +99,7 @@ fun CatScreen(catViewModel: CatViewModel) {
                 }
 
                 Button(onClick = { catViewModel.fetchCat() }) {
-                    Text(text = "Загрузить котика")
+                    Text(text = "fetch cat")
                 }
             }
         }
