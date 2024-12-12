@@ -1,6 +1,6 @@
-package com.example.work6.data.network
+package com.example.work10.data.network
 
-import com.example.work6.data.model.Cat
+import com.example.work10.data.model.Cat
 import okhttp3.ResponseBody
 import retrofit2.Call
 import retrofit2.http.GET

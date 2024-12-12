@@ -1,10 +1,10 @@
-package com.example.work6.di
+package com.example.work10.di
 
 import android.content.Context
-import com.example.work6.data.database.CatDao
-import com.example.work6.data.database.CatDatabase
-import com.example.work6.data.network.CatApi
-import com.example.work6.data.repository.CatRepository
+import com.example.work10.data.database.CatDao
+import com.example.work10.data.database.CatDatabase
+import com.example.work10.data.network.CatApi
+import com.example.work10.data.repository.CatRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

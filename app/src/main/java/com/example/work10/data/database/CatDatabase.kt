@@ -1,10 +1,10 @@
-package com.example.work6.data.database
+package com.example.work10.data.database
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.work6.data.model.Cat
+import com.example.work10.data.model.Cat
 
 @Database(entities = [Cat::class], version = 1, exportSchema = false)
 abstract class CatDatabase : RoomDatabase() {

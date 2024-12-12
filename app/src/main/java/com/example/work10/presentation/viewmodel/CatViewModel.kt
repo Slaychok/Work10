@@ -1,9 +1,9 @@
-package com.example.work10compose.presentation.viewmodel
+package com.example.work10.presentation.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.work6.data.repository.CatRepository
+import com.example.work10.data.repository.CatRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
